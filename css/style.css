@@ -1,0 +1,154 @@
+body{
+  font-family: Arial,"宋体","Helvetica Neue",Helvetica,"Hiragino Sans GB",sans-serif;
+}
+
+.container .navbar-header .logo{
+  margin:0px;padding:0;
+}
+.container .navbar-header .title{
+  font-size:25px;
+  color:#FF6D15;
+}
+.navbar-collapse .navbar-total{
+  margin-top:0;
+}
+#navbar-collapse .input-group{
+  width: 180px;
+  position: absolute;
+  top:10px;
+  right: 380px;
+}
+#myCarousel .left{
+  font-size:24px;
+  margin-left:-30px;
+}
+#myCarousel .right{
+  font-size:24px;
+  margin-right:-30px;
+}
+#myCarousel .carousel-inner img{
+  width: 100%;
+  height: 780px;
+}
+#myModal{
+  margin-top: 200px;
+}
+
+
+
+.carousel-caption h1{
+  font-size: 70px;
+  opacity: 0.5;
+}
+.carousel-caption p{
+  font-size: 20px;
+    opacity: 0.7;
+}
+.carousel-inner button{
+  margin-bottom: 120px;
+}
+.carousel-inner p{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+.jumbotron{
+  color: #666;
+  margin-bottom: 20px;
+}
+.jumbotron .jumbotron-h2{
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FD6D15;
+  font-size: 30px;
+}
+.jumbotron .jumbotron-p{
+  padding-top: 25px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.row .media img{
+  width: 150px;
+  height: 150px;
+}
+.row .media img:hover{
+  transform: translate3d(0,-3px,0);
+  box-shadow: 1px 8px 13px rgba(0,0,0,0.4);
+}
+#container{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#container .col-md-6{
+  padding: 40px;
+}
+#container .col-md-6 p{
+  padding-top: 25px;
+  color:#A599B2;
+  font-size: 14px;
+}
+@media (min-width:768px) {
+  .jumbotron-h2{
+    font-size: 20px;
+    }
+  .jumbotron-p{
+    font-size:15px;
+    }
+}
+@media (min-width:992px) {
+  .jumbotron-h2{
+    font-size: 25px;
+    }
+  .jumbotron-p{
+    font-size:16px;
+    }
+}
+@media (min-width:1200px) {
+  .jumbotron-h2{
+    font-size: 30px;
+    }
+  .jumbotron-p{
+    font-size:18px;
+    }
+}
+#footer{
+  background-color: #F8F8F8;
+  height:80px;
+  width: 100%;
+
+}
+#footer .container p{
+  text-align: center;
+  padding: 1px;
+  color: #A599B2;
+  font-size: 14px;
+}
+#footer .about-us{
+  margin-top: 10px;
+}
+#animal{
+  background-color: #EEEEEE;
+  margin-bottom: 100px;
+}
+.jumbotron-animal  {
+  text-align: center;
+
+}
+ .jumbotron-animal a{
+    color: #333333;
+}
+ .jumbotron-heart{
+  text-align: center;
+    font-size: 20px;
+}
+ .jumbotron-heart a{
+  color: #A599B2;
+}
+.jumbotron-word{
+  text-align: center;
+  font-size: 14px;
+}
+ .jumbotron-word span a{
+  color: #FC9815;
+  font-size: 17px;
+}

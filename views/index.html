@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <!-- 头部导航 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header" >
+          <a href="#" class="navbar-brand logo" >
+            <img src="../images/cat.png" alt="图片">
+          </a>
+          <a href="#" class="navbar-brand" >
+            <span class="title">猫宠网</span>
+          </a>
+          <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right navbar-total" >
+            <li class="active "><a href="index.html">
+              <span class="glyphicon glyphicon-home"></span> 首页
+            </a></li>
+            <li class=""><a href="information.html">
+              <span class="glyphicon glyphicon-list"></span> 猫讯
+            </a></li>
+            <li><a href="public.html">
+              <span class="glyphicon glyphicon-heart-empty"></span> 公益
+            </a></li>
+            <li><a href="about.html">
+              <span class="glyphicon glyphicon-user"></span> 关于
+            </a></li>
+          </ul>
+          <div class="input-group">
+            <input type="text" class="form-control">
+            <div class="input-group-btn">
+              <button class="btn btn-default">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- 轮播 -->
+    <div class="modal fade" id="myModal1" tabindex="-1">
+      <div class="modal-dialog" >
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal" >
+            <span style="color:red; background:white;">&times</span>
+          </button>
+          <h3 style="color:white;text-align:center;">
+            会员注册
+          </h3>
+          <div class="modal-body">
+            <form class="form-horizontal"  style="padding-left:45px;">
+              <div action="" class="form-group">
+                <lable class="col-md-3 control-lable" style="color:white;font-size:20px;">姓名:</lable>
+                <div class="col-md-9">
+                  <input type="text" name="word" class="form-control">
+                </div>
+              </div>
+              <div action="" class="form-group">
+                <lable class="col-md-3 control-lable" style="color:white;font-size:20px;" >电子邮件:</lable>
+                <div class="col-md-9">
+                  <input type="email" name="word" class="form-control">
+                </div>
+              </div>
+              <div action="" class="form-group">
+                <lable class="col-md-3 control-lable" style="color:white;font-size:20px;">密码:</lable>
+                <div class="col-md-9">
+                  <input type="password" name="psd" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal2" tabindex="-1">
+      <div class="modal-dialog" >
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal" >
+            <span style="color:red; background:white;">&times</span>
+          </button>
+          <h3 style="color:white; text-align:center;">
+            用户登录
+          </h3>
+          <div class="modal-body">
+            <form action="" class="form-inline" style="padding-left:45px;">
+              <div action="" class="form-group">
+                <label for="" style="color:white;">用户名:</label>
+                <input type="text" name="word" value="张三" class="form-control">
+              </div>
+              <div action="" class="form-group">
+                <label for="" style="color:white;">密码:</label>
+                <input type="password" name="pwd" value="" class="form-control">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" class="active" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="../images/cat1.png" alt="第一张">
+          <div class="carousel-caption">
+            <h1>猫咪的探索世界</h1>
+            <p>记忆如盛开的繁花，很多很多，回忆里都有它的身影</p>
+
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">用户登陆</button>
+            <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal1">点击注册</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="../images/cat3.png" alt="第二张">
+        </div>
+        <div class="item">
+          <img src="../images/cat2.png" alt="第三张">
+        </div>
+        <div class="item">
+          <img src="../images/cat4.png" alt="第四张">
+        </div>
+        <div class="item">
+          <img src="../images/cat5.png" alt="第五张">
+        </div>
+      </div>
+      <a href="#myCarousel" data-slide="prev" class="carousel-control left">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control right" >
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2 class="jumbotron-h2">最可爱的动物</h2>
+        <p class="jumbotron-p">如果独自一人感到孤独就养一只猫咪吧，毕竟不像狗狗那么依赖于主人,一只可爱的猫咪可以萌翻整个地球!</p>
+      </div>
+    </div>
+    <div class="container" id="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="media">
+            <div class="media-left">
+              <img src="../images/cat-4.png" alt="">
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">波斯猫</h3>
+              <p>这种猫咪性情温和，聪明敏捷，不喜欢活动（也就是很懒~）叫声柔美很好听并且好非常爱撒娇呢，下班一回家刚进门就被猫咪蹭来蹭去，感觉没有比这更好的了</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="media">
+            <div class="media-left">
+              <img src="../images/cat-3.png" alt="">
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">加菲猫</h3>
+              <p>这种猫咪是波斯猫的近亲，他与波斯猫不同的地方是毛短而后呈毛绒状，是为了那些喜欢波斯猫又懒得打理的人培育的。于波斯猫一样性情温和比较懒，不会轻易生气并且很忠诚，但是又跟其他品种的猫咪一样顽皮活泼</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="media">
+            <div class="media-left">
+              <img src="../images/cat-2.png" alt="">
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">布偶猫</h3>
+              <p>这种猫咪又称布拉多尔猫，它们猫中的巨无霸（体型和体重很大），布偶猫对人非常友善，它们的忍耐力超强（常常被人认为感觉不到痛...）最合适那些有小孩子的家庭抚养，它们会像一位长者一样容忍小孩子的捉弄</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="media">
+            <div class="media-left">
+              <img src="../images/cat-1.png" alt="">
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">暹罗猫</h3>
+              <p>这种猫咪应该是家猫中性格最外向的了。它常常尾随着主人用沙哑的声音希望得到主人的关注，一冷遇就会郁郁寡欢，它们的占有欲很强感情专一（会嫉妒）讨厌跟别的猫咪呆在一起，但是喜欢跟孩子们一起玩</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contanier" id="animal">
+      <h2 class="jumbotron-animal"><a href="#">动物收养</a></h2>
+      <p class="jumbotron-heart"><a href="#">千里送寄 | 八方支援 | 爱心支援 | 患难与共</a></p>
+      <div class="row">
+        <div class="col-md-4" >
+          <div class="thumbnail">
+            <img src="../images/cat-help-1.png" alt="">
+            <div class="caption">
+              <p class="jumbotron-word"><span><a href="#">#北京领养#</a></span>   眼睛里一半是海水一半是火焰，眼睛里藏满星辰，希望可以认真考虑领养问题， 有意者加微信</p>                          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="../images/cat-help-2.png" alt="">
+            <div class="caption">
+              <p class="jumbotron-word"><span><a href="#">#天津小胡#</a></span>   眼睛里一半是海水一半是火焰，眼睛里藏满星辰，希望可以认真考虑领养问题， 有意者加QQ</p>                          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img class="pic-3" src="../images/cat-help-4.png" alt="">
+            <div class="caption">
+              <p class="jumbotron-word"><span><a href="#">#上海领养#</a></span>   眼睛里一半是海水一半是火焰，眼睛里藏满星辰，希望可以认真考虑领养问题， 有意者加微信</p>                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <p class="about-us">关于我们 | 联系我们 | 联系客服 | 友情链接</p>
+        <p>使用条款  隐私保护     深圳市吉祥腾达科技有限公司 © 2016 版权所有 粤ICP备05011718号</p>
+      </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $("#myCarousel").carousel({
+      interval:3000,
+    })
+    </script>
+  </body>
+</html>
